@@ -1,5 +1,8 @@
 import express from "express";
+import { fetchMovie } from "../controller/movies";
 
 const router = express.Router();
 
-router.get("/movie");
+router.get("/", fetchMovie);
+
+export default router;
