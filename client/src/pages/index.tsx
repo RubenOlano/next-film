@@ -1,7 +1,7 @@
 import type { GetServerSideProps, GetStaticProps, NextPage } from "next";
 import Body from "../components/Body/Body";
 import Navbar from "../components/Navbar/Navbar";
-import { Data } from "../types/data";
+import { Data } from "../types/types";
 
 const Home: NextPage<Data> = ({ data }) => {
   return (

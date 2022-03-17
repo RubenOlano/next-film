@@ -6,3 +6,11 @@ export interface Data {
     year: number;
   };
 }
+
+export interface Poster {
+  imgUrl: string;
+}
+
+export interface Title {
+  title: string;
+}
